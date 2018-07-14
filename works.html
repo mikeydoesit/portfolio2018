@@ -6,68 +6,59 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link rel="stylesheet" href="wallop.css">
     <title>Michael Obeng - Web Developer</title>
   </head>
   <body>
     <header>
       <div class="row">
         <div class="col-md-4 left">
-            <a href="#">Home</a>
+            <a href="index.html">Home</a>
             <a href="#">About me</a>
         </div>
         <div class="col-md-4">
           <h1><strong>Michael </strong>&nbsp;&nbsp;Obeng</h1>
         </div>
         <div class="col-md-4 right">
-            <a href="works.html">Works</a>
+            <a href="#">Works</a>
             <a href="#">Contact</a>
         </div>
       </div>
     </header>
-    <section id="tiles">
-      <div class="row">
-        <div class="col-md-4">
-          <div id="about-tile">
-            <h3><strong>About</strong>&nbsp;me</h3>
+
+    <section id="tiles" class="Wallop">
+      <div class="row Wallop-list">
+        <div class="offset-md-1 col-md-10 Wallop-item">
+          <div id="kervan-tile">
+            <h3><strong>Kervan&nbsp;Sofrasi</strong>&nbsp;Restaurant</h3>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="offset-md-1 col-md-10 Wallop-item">
           <div id="works-tile">
             <h3><strong>Recent</strong>&nbsp;works</h3>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="offset-md-1 col-md-10 Wallop-item">
           <div id="contact-tile">
             <h3><strong>Contact</strong>&nbsp;me</h3>
           </div>
         </div>
       </div>
     </section>
+
     <section id="social">
       <div class="row">
         <div class="col-md-12">
-          <a href="https://github.com/mikeydoesit" target="_blank">
-            <div class="icon-wrapper">
-              <i class="fab fa-github"></i>
+            <div class="icon-wrapper Wallop-buttonPrevious">
+              <i class="fas fa-arrow-left fa-2x"></i>
             </div>
-          </a>
-          <a href="#">
-            <div class="icon-wrapper">
-              <i class="fab fa-facebook-f"></i>
+            <div class="icon-wrapper Wallop-buttonNext">
+              <i class="fas fa-arrow-right fa-2x"></i>
             </div>
-          </a>
-          <a href="#">
-            <div class="icon-wrapper">
-              <i class="fab fa-twitter"></i>
-            </div>
-          </a>
-          <a href="https://www.linkedin.com/in/michael-obeng-61586055/" target="_blank">
-            <div class="icon-wrapper">
-              <i class="fab fa-linkedin-in"></i>
-            </div>
-          </a>
         </div>
       </div>
     </section>
+    <script src="wallop.min.js"></script>
+    <script src="main.js"></script>
   </body>
 </html>

@@ -57,7 +57,7 @@ header h1 strong {
   height: 100%;
 
 }
-#tiles .col-md-4 #about-tile {
+#tiles #about-tile {
   background-image: url('about.png');
   background-position: center;
   background-size: cover;
@@ -71,10 +71,10 @@ header h1 strong {
   background-color: rgba(80, 38, 98, 0.4);
   background-blend-mode: overlay;
 }
-#tiles .col-md-4 #about-tile:hover {
+#tiles #about-tile:hover {
   background-color: transparent;
 }
-#tiles .col-md-4 #works-tile {
+#tiles #works-tile {
   background-image: url('works.png');
   background-position: center;
   background-size: cover;
@@ -88,10 +88,10 @@ header h1 strong {
   background-color: rgba(80, 38, 98, 0.4);
   background-blend-mode: overlay;
 }
-#tiles .col-md-4 #works-tile:hover {
+#tiles #works-tile:hover {
   background-color: transparent;
 }
-#tiles .col-md-4 #contact-tile {
+#tiles #contact-tile {
   background-image: url('contact.png');
   background-position: center;
   background-size: cover;
@@ -105,10 +105,10 @@ header h1 strong {
   background-color: rgba(80, 38, 98, 0.4);
   background-blend-mode: overlay;
 }
-#tiles .col-md-4 #contact-tile:hover {
+#tiles #contact-tile:hover {
   background-color: transparent;
 }
-#tiles .col-md-4 h3 {
+#tiles .col-md-10 h3 {
   font-family: 'Montserrat', sans-serif;
   top: 45vh;
   padding-left: 2vw;
@@ -118,8 +118,27 @@ header h1 strong {
   text-transform: uppercase;
   position: absolute;
 }
-#tiles .col-md-4 h3 strong {
+#tiles .col-md-10 h3 strong {
   font-weight: 700;
+}
+
+
+#tiles #kervan-tile {
+  background-image: url('kervan.png');
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  -webkit-box-shadow: 0px 0px 33px 8px rgba(59,28,73,1);
+  -moz-box-shadow: 0px 0px 33px 8px rgba(59,28,73,1);
+  box-shadow: 0px 0px 33px 8px rgba(59,28,73,1);
+  position: relative;
+	-webkit-transition: .7s ease-in-out;
+	transition: .7s ease-in-out;
+  background-color: rgba(80, 38, 98, 0.4);
+  background-blend-mode: overlay;
+}
+#tiles #kervan-tile:hover {
+  background-color: transparent;
 }
 
 
@@ -134,7 +153,7 @@ header h1 strong {
   padding: 0;
   margin: 0;
 }
-#social a .icon-wrapper {
+#social .icon-wrapper {
   display: inline-block;
   color: #9D8DA4;
   background-color: #3B1C49;
@@ -149,7 +168,7 @@ header h1 strong {
   box-shadow: 0px 0px 33px 2px rgba(137,74,159,1);
   transition: all 0.7s ease-in-out;
 }
-#social a .icon-wrapper:hover {
+#social .icon-wrapper:hover {
   cursor: pointer;
   color: #EAE5EC;
 }

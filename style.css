@@ -108,7 +108,7 @@ header h1 strong {
 #tiles #contact-tile:hover {
   background-color: transparent;
 }
-#tiles .col-md-10 h3 {
+#tiles h3 {
   font-family: 'Montserrat', sans-serif;
   top: 45vh;
   padding-left: 2vw;
@@ -118,7 +118,7 @@ header h1 strong {
   text-transform: uppercase;
   position: absolute;
 }
-#tiles .col-md-10 h3 strong {
+#tiles h3 strong {
   font-weight: 700;
 }
 

@@ -7,6 +7,8 @@
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900" rel="stylesheet">
     <link rel="stylesheet" href="wallop.css">
+    <link rel="stylesheet" href="wallop--fade.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <title>Michael Obeng - Web Developer</title>
   </head>
   <body>
@@ -26,7 +28,7 @@
       </div>
     </header>
 
-    <section id="tiles" class="Wallop">
+    <section id="tiles" class="Wallop Wallop--fade animated slideInLeft">
       <div class="row Wallop-list">
         <div class="offset-md-1 col-md-10 Wallop-item">
           <div id="kervan-tile">
@@ -51,7 +53,7 @@
       </div>
     </section>
 
-    <section id="social">
+    <section id="social" class="animated slideInLeft">
       <div class="row">
         <div class="col-md-12">
             <div class="icon-wrapper Wallop-buttonPrevious">
@@ -63,6 +65,7 @@
         </div>
       </div>
     </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="wallop.min.js"></script>
     <script src="main.js"></script>
   </body>

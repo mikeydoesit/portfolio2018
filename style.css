@@ -48,6 +48,10 @@ header h1 strong {
   padding-left: 10vw;
   padding-right: 10vw;
   height: 50vh;
+  -webkit-animation-delay: 1s;
+  -moz-animation-delay: 1s;
+  -webkit-animation-duration: 1.2s;
+  -moz-animation-duration: 1.2s;
 }
 #tiles .row {
   height: 100%;
@@ -199,6 +203,10 @@ header h1 strong {
   text-align: center;
   padding-left: 10vw;
   padding-right: 10vw;
+  -webkit-animation-delay: 2s;
+  -moz-animation-delay: 2s;
+  -webkit-animation-duration: 1.2s;
+  -moz-animation-duration: 1.2s;
 }
 #social a {
   text-decoration: none;
